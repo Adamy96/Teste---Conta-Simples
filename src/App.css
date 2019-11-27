@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --color-white: #fff;
+  --color-grey-1: #313131;
+  --color-grey-2: #555;
+  --color-grey-3: #808080;
+  --color-light-grey-1: #ebebeb;
+  --color-light-grey-2: #fafafa; /* Um pouco mais claro */
+  --color-dark-green: #62BD07;
+  --color-light-green-1: #7EDC21; /* Um pouco mais claro */
+  --color-light-green-2: #7BE115;
+}

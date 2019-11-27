@@ -1,0 +1,122 @@
+.about {
+  height: 67rem;
+  background-color: var(--color-light-grey-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.5rem 0;
+  color: var(--color-grey-1);
+  border-bottom: 2px solid var(--color-light-grey-1);
+}
+
+.about__title {
+  font-weight: normal;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.about__text {
+  width: 115rem;
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 6rem;
+}
+
+.about__cards-container {
+  display: flex;
+  justify-content: space-between;
+  width: 120rem;
+}
+
+.about__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.about__card--img {
+  height: 7.8rem;
+  margin-bottom: 2rem;
+}
+
+.about__card--title {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.about__card--description {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* Responsividade Desktop-low */
+@media only screen and (max-width: 1400px) {
+  .about {
+    padding: 4rem 0;
+    height: 59rem;
+  }
+
+  .about__title {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .about__text {
+    font-size: 2.6rem;
+    width: 105rem;
+  }
+
+  .about__card--img {
+    height: 7.2rem;
+  }
+}
+
+/* Responsividade Tablet */
+@media only screen and (max-width: 1201px) {
+  .about__text, .about__cards-container {
+    width: 90%;
+  }
+}
+
+/* Responsividade Mobile */
+@media only screen and (max-width: 450px) {
+  .about {
+    height: 106rem;
+  }
+
+  .about__title {
+    font-weight: normal;
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .about__text {
+    width: 90%;
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+  }
+
+  .about__cards-container {
+    flex-direction: column;
+    width: 80%;
+    height: 80rem;
+  }
+
+  .about__card {
+    width: 100%;
+  }
+
+  .about__card--img {
+    height: 7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about__card--description {
+    margin-bottom: 4rem;
+  }
+}
