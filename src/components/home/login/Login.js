@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-import './Login.css';
+import './Login.scss';
+// import './Login.css';
 import auth from '../../Auth';
 import axios from 'axios';
 
@@ -66,11 +67,7 @@ class Login extends Component {
             <div className="logo__internet-banking"></div>
             <form className="login__form">
 
-              {
-                this.state.message !== '' ? (
-                  <p className="login__message">{this.state.message}</p>
-                ) : ''
-              }
+              {this.state.message !== '' && <p className="login__message">{this.state.message}</p>}
 
               <label htmlFor="login" className="login__form--label">Login (e-mail)</label>
               <input autoComplete="off" type="text" id="login" className="login__form--input" name="email" value={this.state.email} onChange={(e) => this.onChangeHandler(e)} placeholder="viniciusbohreradamy@gmail.com" />

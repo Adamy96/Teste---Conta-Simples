@@ -19,7 +19,10 @@ body {
   --color-grey-3: #808080;
   --color-light-grey-1: #ebebeb;
   --color-light-grey-2: #fafafa; /* Um pouco mais claro */
+  --color-light-grey-3: #f1f1f1;
   --color-dark-green: #62BD07;
   --color-light-green-1: #7EDC21; /* Um pouco mais claro */
   --color-light-green-2: #7BE115;
+  --color-red-1: #FA0100;
+  --color-red-2: #F46868;
 }

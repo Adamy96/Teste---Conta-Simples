@@ -1,63 +1,95 @@
 {
   "usuarios": [
     {
-      "email": "applesubmit@banky.com.br",
-      "senha": "281943",
-      "nome": "Apple Store Submit",
-      "avatarurl": "",
+      "email": "teste@gmail.com",
+      "senha": "123",
+      "nome": "Vila uberabinha",
+      "avatarUrl": "/images/profile_avatar-1.png",
+      "conta": "0001",
+      "agencia": "43322-1",
+      "notificações": 2,
+      "lastUpdate": "Atualizado em 02/12/2019 às 19:27",
+      "balance": 7359.21,
+      "balanceComparison": "15%",
+      "profit": 202,
+      "profitComparison": 0.5,
+      "latestEntries": 12873.02,
+      "latestEntriesComparison": "33%",
       "transacoes": [
         {
-          "identificador": "Transferência realizada para conta simples",
-          "contato": "-",
-          "status": "saida",
-          "valor": "17.41",
-          "data": "30 AGO",
-          "horario": "12:37"
+          "identificador": "Starbucks Coffee Company",
+          "data": "10 de novembro de 2019",
+          "tipo": "Vendas",
+          "valor": 19.9,
+          "fluxo": "Entrada"
         },
         {
-          "identificador": "Compra com cartão",
-          "contato": "Facebook Mr26fmnrc2",
-          "status": "saida",
-          "valor": "214.97",
-          "data": "30 AGO",
-          "horario": "12:36"
+          "identificador": "Google Ads tecnologia e propaganda SA.",
+          "data": "10 de novembro de 2019",
+          "tipo": "Marketing",
+          "valor": 799.9,
+          "fluxo": "Saída"
         },
         {
-          "identificador": "Transferência recebida de conta simples",
-          "contato": "-",
-          "status": "entrada",
-          "valor": "220",
-          "data": "30 AGO",
-          "horario": "12:00"
+          "identificador": "Facebook Business tecnologia e marketing LTDA.",
+          "data": "10 de novembro de 2019",
+          "tipo": "Marketing",
+          "valor": 7830.9,
+          "fluxo": "Saída"
         },
         {
-          "identificador": "Compra pré-pago visa ext",
-          "contato": "Facebk *Payment",
-          "status": "bloqueado",
-          "valor": "220",
-          "data": "30 AGO",
-          "horario": "11:54"
+          "identificador": "Loggi logística",
+          "data": "10 de novembro de 2019",
+          "tipo": "Financeiro",
+          "valor": 7.13,
+          "fluxo": "Entrada"
         },
         {
-          "identificador": "Tarifa emissão de boleto",
-          "contato": "-",
-          "status": "saida",
-          "valor": "2.89",
-          "data": "2 AGO",
-          "horario": "10:05"
+          "identificador": "AWS - Amazon web service tecnologia",
+          "data": "10 de novembro de 2019",
+          "tipo": "Tecnologia",
+          "valor": 2009.55,
+          "fluxo": "Saída"
         },
         {
-          "identificador": "Pagamento de contas",
-          "contato": "-",
-          "status": "saida",
-          "valor": "10.04",
-          "data": "1 AGO",
-          "horario": "12:07"
+          "identificador": "Starbucks Coffee Company",
+          "data": "10 de novembro de 2019",
+          "tipo": "Vendas",
+          "valor": 19.9,
+          "fluxo": "Entrada"
+        },
+        {
+          "identificador": "Google Ads tecnologia e propaganda SA.",
+          "data": "10 de novembro de 2019",
+          "tipo": "Marketing",
+          "valor": 799.9,
+          "fluxo": "Saída"
+        },
+        {
+          "identificador": "Facebook Business tecnologia e marketing LTDA.",
+          "data": "10 de novembro de 2019",
+          "tipo": "Marketing",
+          "valor": 7830.9,
+          "fluxo": "Saída"
+        },
+        {
+          "identificador": "Loggi logística",
+          "data": "10 de novembro de 2019",
+          "tipo": "Financeiro",
+          "valor": 7.13,
+          "fluxo": "Entrada"
+        },
+        {
+          "identificador": "AWS - Amazon web service tecnologia",
+          "data": "10 de novembro de 2019",
+          "tipo": "Tecnologia",
+          "valor": 2009.55,
+          "fluxo": "Saída"
         }
       ]
     },
     {
-      "email": "teste@gmail.com",
+      "email": "teste2@gmail.com",
       "senha": "123"
     }
   ]

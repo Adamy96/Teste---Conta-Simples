@@ -75,7 +75,7 @@
     display: block;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 5rem;
     border: none;
     background-color: var(--color-light-green-2);

@@ -8,15 +8,19 @@
   display: flex;
   border-bottom: 2px solid var(--color-light-grey-1);
   min-width: 150rem;
+
+  &__left-side {
+    z-index: 1;
+    width: 55%;
+    height: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+  }
 }
 
 .login__left-side {
-  z-index: 1;
-  width: 55%;
-  height: 100%;
-  position: relative;
-  background-color: var(--color-white);
-  clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+  
 }
 
 .logo__internet-banking {

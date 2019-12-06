@@ -12,7 +12,10 @@ const Signup = () => {
         </p>
         <button className="signup__btn">Pedir convite</button>
       </section>
+      
       <button className="signup__mobile">PEDIR CONVITE</button>
+
+      
     </Fragment>
   )
 }
